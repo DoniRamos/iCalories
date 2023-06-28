@@ -9,6 +9,7 @@ import Foundation
 import CoreData
 
 class DataController: ObservableObject {
+    // declarar Container
     let container = NSPersistentContainer(name: "FoodModel")
     
     init() {
