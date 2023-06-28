@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct iCaloriesApp: App {
     @StateObject private var dataController = DataController()
+    @StateObject private var dataController2 = DataController()
     
     var body: some Scene {
         WindowGroup {
